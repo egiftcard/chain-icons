@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const ZbToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" {...props}>
     <g fill="#e6201a">
@@ -10,5 +9,4 @@ const ZbToken = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default ZbToken;

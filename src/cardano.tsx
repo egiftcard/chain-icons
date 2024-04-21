@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Cardano = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 346" {...props}>
     <path
@@ -9,5 +8,4 @@ const Cardano = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Cardano;

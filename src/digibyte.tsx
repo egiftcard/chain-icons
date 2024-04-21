@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Digibyte = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 479 479" {...props}>
     <circle
@@ -18,5 +17,4 @@ const Digibyte = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Digibyte;

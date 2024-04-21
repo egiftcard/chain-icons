@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const PundiX = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" {...props}>
     <circle cx={1250} cy={1250} r={1250} fill="#181818" />
@@ -10,5 +9,4 @@ const PundiX = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default PundiX;

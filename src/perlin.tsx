@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Perlin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" {...props}>
     <defs>
@@ -54,5 +53,4 @@ const Perlin = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Perlin;

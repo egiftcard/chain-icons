@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Cosmos = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" {...props}>
     <circle cx={1250} cy={1250} r={1250} fill="#2e3148" />
@@ -23,5 +22,4 @@ const Cosmos = (props: SVGProps<SVGSVGElement>) => (
     <ellipse cx={1098.25} cy={1965.02} fill="#b7b9c8" rx={74.59} ry={77.16} />
   </svg>
 );
-
 export default Cosmos;

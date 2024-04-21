@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Storj = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1782 2000" {...props}>
     <g fill="#2683ff">
@@ -10,5 +9,4 @@ const Storj = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Storj;

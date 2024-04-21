@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const BitforexToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
     <path fill="#265fac" d="M0 0h512v512H0z" />
@@ -10,5 +9,4 @@ const BitforexToken = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default BitforexToken;

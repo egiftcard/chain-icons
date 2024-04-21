@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Kleros = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -98,5 +97,4 @@ const Kleros = (props: SVGProps<SVGSVGElement>) => (
     <path d="m140.4 344.5 4.9 252.4L28.1 320.7z" className="st0" />
   </svg>
 );
-
 export default Kleros;

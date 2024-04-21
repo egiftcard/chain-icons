@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Torex = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67" {...props}>
     <rect width={67.37} height={67.25} rx={20} />
@@ -12,5 +11,4 @@ const Torex = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Torex;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Educare = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -102,5 +101,4 @@ const Educare = (props: SVGProps<SVGSVGElement>) => (
     <path fill="url(#i)" d="M152.3 173H102v-51.5z" />
   </svg>
 );
-
 export default Educare;

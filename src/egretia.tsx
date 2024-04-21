@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Egretia = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308 308" {...props}>
     <ellipse cx={154.5} cy={154.3} fill="#fff" rx={151.2} ry={140.7} />
@@ -15,5 +14,4 @@ const Egretia = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Egretia;

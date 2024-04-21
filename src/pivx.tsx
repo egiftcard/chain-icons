@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Pivx = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1634 2000" {...props}>
     <g fill="#5e4778">
@@ -15,5 +14,4 @@ const Pivx = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Pivx;

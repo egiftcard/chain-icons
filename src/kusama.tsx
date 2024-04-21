@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Kusama = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441 441" {...props}>
     <path stroke="#000" strokeMiterlimit={10} d="M.5.5h440v440H.5z" />
@@ -10,5 +9,4 @@ const Kusama = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Kusama;

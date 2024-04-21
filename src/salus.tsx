@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Salus = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}>
     <g fill="none" fillRule="evenodd">
@@ -13,5 +12,4 @@ const Salus = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Salus;

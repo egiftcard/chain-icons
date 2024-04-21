@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const BasicAttentionToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1719" {...props}>
     <path fill="#662d91" d="m2000 1716.64-995.21-569.86L0 1719l2000-2.36z" />
@@ -15,5 +14,4 @@ const BasicAttentionToken = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default BasicAttentionToken;

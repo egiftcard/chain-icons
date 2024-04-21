@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const MantraDao = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405 405" {...props}>
     <circle cx={202.5} cy={202.5} r={202.5} fill="#fff" />
@@ -20,5 +19,4 @@ const MantraDao = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default MantraDao;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Stratis = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1858" {...props}>
     <defs>
@@ -18,5 +17,4 @@ const Stratis = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Stratis;

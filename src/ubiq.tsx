@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Ubiq = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785 2000" {...props}>
     <path fill="#333" d="m1089.3 213 25.24 804.73L1785 594.08z" />
@@ -9,5 +8,4 @@ const Ubiq = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#00ea90" d="M4.73 563.31v845.76l960.73-608.28V0h-32.34" />
   </svg>
 );
-
 export default Ubiq;

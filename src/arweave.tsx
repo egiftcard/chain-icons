@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Arweave = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31" {...props}>
     <circle
@@ -17,5 +16,4 @@ const Arweave = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Arweave;

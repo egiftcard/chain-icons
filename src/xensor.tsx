@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Xensor = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" {...props}>
     <g fillRule="evenodd">
@@ -23,5 +22,4 @@ const Xensor = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Xensor;

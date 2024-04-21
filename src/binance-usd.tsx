@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const BinanceUsd = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 337" {...props}>
     <path
@@ -10,5 +9,4 @@ const BinanceUsd = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default BinanceUsd;

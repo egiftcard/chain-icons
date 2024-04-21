@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const SmoothLovePotion = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 159" {...props}>
     <path
@@ -45,5 +44,4 @@ const SmoothLovePotion = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SmoothLovePotion;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Rise = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1272 2499" {...props}>
     <g data-name="Layer 2">
@@ -38,5 +37,4 @@ const Rise = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Rise;

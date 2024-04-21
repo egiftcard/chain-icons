@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Xyo = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 386 335" {...props}>
     <g fill="#8c91c7">
@@ -21,5 +20,4 @@ const Xyo = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Xyo;

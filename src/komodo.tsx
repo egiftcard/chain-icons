@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Komodo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -44,5 +43,4 @@ const Komodo = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Komodo;

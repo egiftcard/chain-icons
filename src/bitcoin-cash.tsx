@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const BitcoinCash = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 788 788" {...props}>
     <circle cx={394} cy={394} r={394} fill="#0ac18e" />
@@ -10,5 +9,4 @@ const BitcoinCash = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default BitcoinCash;

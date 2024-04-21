@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const InsightChain = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 395" {...props}>
     <defs>
@@ -24,5 +23,4 @@ const InsightChain = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default InsightChain;

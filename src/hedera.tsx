@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Hedera = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" {...props}>
     <path d="M1250 0C559.64 0 0 559.64 0 1250s559.64 1250 1250 1250 1250-559.64 1250-1250S1940.36 0 1250 0" />
@@ -10,5 +9,4 @@ const Hedera = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Hedera;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Verge = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +15,4 @@ const Verge = (props: SVGProps<SVGSVGElement>) => (
     <path d="M109.4 92.6 148.6 0H70.2z" className="st0" />
   </svg>
 );
-
 export default Verge;

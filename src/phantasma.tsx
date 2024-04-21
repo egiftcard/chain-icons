@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Phantasma = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -106,5 +105,4 @@ const Phantasma = (props: SVGProps<SVGSVGElement>) => (
     <circle cx={70.4} cy={26} r={2.2} className="st9" />
   </svg>
 );
-
 export default Phantasma;

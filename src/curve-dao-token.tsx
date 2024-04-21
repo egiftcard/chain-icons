@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const CurveDaoToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 417" {...props}>
     <defs>
@@ -8264,5 +8263,4 @@ const CurveDaoToken = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default CurveDaoToken;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Gas = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333 373" {...props}>
     <path
@@ -12,5 +11,4 @@ const Gas = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Gas;

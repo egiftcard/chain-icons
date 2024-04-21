@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Cloudcoin = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -25,5 +24,4 @@ const Cloudcoin = (props: SVGProps<SVGSVGElement>) => (
     </switch>
   </svg>
 );
-
 export default Cloudcoin;

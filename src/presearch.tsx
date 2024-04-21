@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Presearch = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31" {...props}>
     <path fill="#fff" d="M2 1.88h27.5v27.5H2z" />
@@ -15,5 +14,4 @@ const Presearch = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#2d8eff" d="M13.53 21.6h11.59v3.56H13.53z" />
   </svg>
 );
-
 export default Presearch;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Bakerytoken = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -51,5 +50,4 @@ const Bakerytoken = (props: SVGProps<SVGSVGElement>) => (
     <circle cx={9.8} cy={24.3} r={1.2} className="st4" />
   </svg>
 );
-
 export default Bakerytoken;

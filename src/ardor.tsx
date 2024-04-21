@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Ardor = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1984 1726" {...props}>
     <path fill="#1562a1" d="M984.3 0 0 1719.5h490.8l747.4-1282L984.3 0z" />
@@ -14,5 +13,4 @@ const Ardor = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Ardor;

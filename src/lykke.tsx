@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Lykke = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 42" {...props}>
     <linearGradient
@@ -33,5 +32,4 @@ const Lykke = (props: SVGProps<SVGSVGElement>) => (
     <path fill="url(#b)" d="M44 17.3H27.1V5.2L22 0v22.5h17z" />
   </svg>
 );
-
 export default Lykke;

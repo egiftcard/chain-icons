@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Moac = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" {...props}>
     <circle cx={100} cy={100} r={100} />
@@ -34,5 +33,4 @@ const Moac = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Moac;

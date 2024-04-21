@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Crpt = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" {...props}>
     <path fill="#2992fb" fillRule="evenodd" d="M0 0h64v64H0V0z" />
@@ -11,5 +10,4 @@ const Crpt = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Crpt;

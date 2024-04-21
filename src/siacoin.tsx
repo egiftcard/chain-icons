@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Siacoin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404 404" {...props}>
     <path
@@ -17,5 +16,4 @@ const Siacoin = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Siacoin;

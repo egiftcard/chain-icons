@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Clams = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1826" {...props}>
     <defs>
@@ -29,5 +28,4 @@ const Clams = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Clams;

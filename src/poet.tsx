@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Poet = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -73,5 +72,4 @@ const Poet = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Poet;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Icon = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" {...props}>
     <defs>
@@ -30,5 +29,4 @@ const Icon = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Icon;

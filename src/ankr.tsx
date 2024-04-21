@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Ankr = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 40" {...props}>
     <path
@@ -12,5 +11,4 @@ const Ankr = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Ankr;

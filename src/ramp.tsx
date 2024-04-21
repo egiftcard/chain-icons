@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Ramp = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273 317" {...props}>
     <path fill="#00b5d1" d="m178 183.1-42 24.5-42-24.5V134l42-24.6 42 24.6z" />
@@ -10,5 +9,4 @@ const Ramp = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Ramp;

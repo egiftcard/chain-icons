@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Xrp = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 424" {...props}>
     <path
@@ -9,5 +8,4 @@ const Xrp = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Xrp;

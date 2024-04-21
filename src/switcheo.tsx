@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Switcheo = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62" {...props}>
     <path fill="#063c4f" d="M0 0h62v62H0V0z" />
@@ -12,5 +11,4 @@ const Switcheo = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Switcheo;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const AlphaFinanceLab = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -62,5 +61,4 @@ const AlphaFinanceLab = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default AlphaFinanceLab;

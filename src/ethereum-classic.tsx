@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const EthereumClassic = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1543 2499" {...props}>
     <defs>
@@ -36,5 +35,4 @@ const EthereumClassic = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default EthereumClassic;

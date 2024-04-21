@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Centrality = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 477" {...props}>
     <path fill="#0886fb" fillRule="evenodd" d="M0 0h477.98v477.98H0V0z" />
@@ -11,5 +10,4 @@ const Centrality = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Centrality;

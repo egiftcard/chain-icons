@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Litecoin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 82" {...props}>
     <circle cx={41.3} cy={41.3} r={36.83} fill="#fff" />
@@ -10,5 +9,4 @@ const Litecoin = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Litecoin;

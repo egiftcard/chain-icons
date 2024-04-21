@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Amp = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 124" {...props}>
     <circle cx={62} cy={62} r={60} fill="#f2e3ee" />
@@ -13,5 +12,4 @@ const Amp = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Amp;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Enigma = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2187 2500" {...props}>
     <path fill="#ea259e" d="m1095 642 509 307-509 291-532-291z" />
@@ -12,5 +11,4 @@ const Enigma = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Enigma;

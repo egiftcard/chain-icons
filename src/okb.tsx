@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Okb = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212" {...props}>
     <circle cx={106} cy={48} r={48} fill="#88bdf3" />
@@ -25,5 +24,4 @@ const Okb = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Okb;

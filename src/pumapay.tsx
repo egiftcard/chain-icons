@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Pumapay = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 252" {...props}>
     <path
@@ -9,5 +8,4 @@ const Pumapay = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Pumapay;

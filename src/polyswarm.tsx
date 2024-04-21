@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Polyswarm = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1994 1915" {...props}>
     <path
@@ -17,5 +16,4 @@ const Polyswarm = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Polyswarm;

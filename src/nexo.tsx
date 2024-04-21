@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Nexo = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 42" {...props}>
     <path
@@ -20,5 +19,4 @@ const Nexo = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#3ca9e5" d="m12.37 42.84 12.36-7.14-12.36-7.14v14.28z" />
   </svg>
 );
-
 export default Nexo;

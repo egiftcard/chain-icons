@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const PolymathNetwork = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 275" {...props}>
     <path fill="#3f4b80" d="M378.3 43.8 360 30.5l42.8-21.6-24.5 34.9z" />
@@ -67,5 +66,4 @@ const PolymathNetwork = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default PolymathNetwork;

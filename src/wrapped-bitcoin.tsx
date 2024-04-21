@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const WrappedBitcoin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109 109" {...props}>
     <defs>
@@ -51,5 +50,4 @@ const WrappedBitcoin = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default WrappedBitcoin;

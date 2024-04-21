@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const FtxToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1739" {...props}>
     <path
@@ -17,5 +16,4 @@ const FtxToken = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default FtxToken;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Stacks = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 159" {...props}>
     <circle cx={79.9} cy={79.9} r={79.9} fill="#5546ff" />
@@ -10,5 +9,4 @@ const Stacks = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Stacks;

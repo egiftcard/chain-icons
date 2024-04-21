@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Ternio = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 456" {...props}>
     <circle cx={228.1} cy={228.1} r={228.1} fill="#1b2d45" />
@@ -10,5 +9,4 @@ const Ternio = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Ternio;

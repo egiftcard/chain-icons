@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Xmax = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32" {...props}>
     <path
@@ -9,5 +8,4 @@ const Xmax = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Xmax;

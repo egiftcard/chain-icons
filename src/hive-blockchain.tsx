@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const HiveBlockchain = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190" {...props}>
     <defs>
@@ -20,5 +19,4 @@ const HiveBlockchain = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default HiveBlockchain;

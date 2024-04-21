@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Lamden = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2499" {...props}>
     <path fill="#a02870" d="M262.86 959.74 0 1222.55h525.68Z" />
@@ -36,5 +35,4 @@ const Lamden = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#21695e" d="m2237.16 959.74-262.86 262.81H2500Z" />
   </svg>
 );
-
 export default Lamden;

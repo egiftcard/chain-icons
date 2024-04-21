@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const UnusSedLeo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -164,5 +163,4 @@ const UnusSedLeo = (props: SVGProps<SVGSVGElement>) => (
     <path fill="url(#h)" d="M80.8 110V84.7L46.2 95l34.6 14.9" />
   </svg>
 );
-
 export default UnusSedLeo;

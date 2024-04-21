@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Steem = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 590" {...props}>
     <path
@@ -9,5 +8,4 @@ const Steem = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Steem;

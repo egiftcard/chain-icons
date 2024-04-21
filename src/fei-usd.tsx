@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const FeiUsd = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" {...props}>
     <circle cx={9} cy={9} r={9} fill="#22996e" />
@@ -10,5 +9,4 @@ const FeiUsd = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default FeiUsd;

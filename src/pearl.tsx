@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Pearl = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -47,5 +46,4 @@ const Pearl = (props: SVGProps<SVGSVGElement>) => (
     <circle cx={237} cy={237.1} r={36.5} fill="url(#SVGID_1_)" />
   </svg>
 );
-
 export default Pearl;

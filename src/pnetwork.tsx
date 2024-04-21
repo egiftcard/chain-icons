@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Pnetwork = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" {...props}>
     <path fill="#fff" d="M66.5 14h70v70h-70z" />
@@ -22,5 +21,4 @@ const Pnetwork = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Pnetwork;

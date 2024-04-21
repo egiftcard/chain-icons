@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Peercoin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1280" {...props}>
     <path fill="none" d="M0 0h1280v1280H0V0z" />
@@ -20,5 +19,4 @@ const Peercoin = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Peercoin;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const ThunderToken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3500 3500" {...props}>
     <path
@@ -25,5 +24,4 @@ const ThunderToken = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default ThunderToken;

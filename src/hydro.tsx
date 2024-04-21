@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Hydro = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61" {...props}>
     <circle cx={30.79} cy={30.79} r={28.17} fill="#fff" />
@@ -10,5 +9,4 @@ const Hydro = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Hydro;

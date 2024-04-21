@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Latoken = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 111" {...props}>
     <path fill="#161f37" d="M61.7 60.8H73l-5.6-15.7-5.7 15.7z" />
@@ -10,5 +9,4 @@ const Latoken = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Latoken;

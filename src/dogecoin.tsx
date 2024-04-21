@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Dogecoin = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1875 1875" {...props}>
     <circle cx={937.5} cy={937.5} r={937.5} fill="#988430" />
@@ -615,5 +614,4 @@ const Dogecoin = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Dogecoin;

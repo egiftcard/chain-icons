@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Chainx = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -26,5 +25,4 @@ const Chainx = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Chainx;

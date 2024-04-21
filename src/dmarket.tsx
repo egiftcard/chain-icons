@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Dmarket = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1948" {...props}>
     <defs>
@@ -84,5 +83,4 @@ const Dmarket = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Dmarket;

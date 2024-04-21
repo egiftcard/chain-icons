@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Tomochain = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 280" {...props}>
     <path
@@ -10,5 +9,4 @@ const Tomochain = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#00e8b5" d="M186.7 93.3 140 140H0l46.7-46.7z" />
   </svg>
 );
-
 export default Tomochain;

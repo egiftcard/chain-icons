@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Thorecoin = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -106,5 +105,4 @@ const Thorecoin = (props: SVGProps<SVGSVGElement>) => (
     <circle cx={143.33} cy={38.62} r={1.91} />
   </svg>
 );
-
 export default Thorecoin;

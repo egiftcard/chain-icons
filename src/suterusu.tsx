@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Suterusu = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 31" {...props}>
     <defs>
@@ -62,5 +61,4 @@ const Suterusu = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default Suterusu;

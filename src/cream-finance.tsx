@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const CreamFinance = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" {...props}>
     <defs>
@@ -18,5 +17,4 @@ const CreamFinance = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default CreamFinance;

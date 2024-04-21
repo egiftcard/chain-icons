@@ -1,5 +1,5 @@
 {
-  "name": "@thirdweb-dev/chain-icons",
+  "name": "@egiftcard/chain-icons",
   "version": "1.0.5",
   "description": "",
   "source": "src/index.ts",
@@ -8,13 +8,13 @@
   "module": "dist/index.mjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thirdweb-dev/chain-icons.git"
+    "url": "git+https://github.com/egiftcard/chain-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/thirdweb-dev/chain-icons/issues"
+    "url": "https://github.com/egiftcard/chain-icons/issues"
   },
-  "homepage": "https://github.com/thirdweb-dev/chain-icons#readme",
-  "author": "@jnsdls",
+  "homepage": "https://github.com/egiftcard/chain-icons#readme",
+  "author": "@nxpkg",
   "license": "Apache-2.0",
   "scripts": {
     "download": "node scripts/download-icons.mjs",
@@ -38,7 +38,7 @@
     "react",
     "react-icons",
     "react-chain-icons",
-    "thirdweb",
+    "egiftcard",
     "web3"
   ],
   "peerDependencies": {
@@ -53,6 +53,7 @@
     "@svgr/plugin-jsx": "^6.1.0",
     "@svgr/plugin-prettier": "^6.0.0",
     "@svgr/plugin-svgo": "^6.1.0",
+    "@swc/core": "^1.4.16",
     "@types/react": "^18",
     "got": "^12.0.0",
     "react": "*",

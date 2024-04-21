@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Hord = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 218" {...props}>
     <path fill="#27282d" d="M0 0h218v218H0z" />
@@ -12,5 +11,4 @@ const Hord = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Hord;

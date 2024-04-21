@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Reserve = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3500 3500" {...props}>
     <path d="M1750 0c966.5 0 1750 783.5 1750 1750s-783.5 1750-1750 1750S0 2716.5 0 1750 783.5 0 1750 0z" />
@@ -11,5 +10,4 @@ const Reserve = (props: SVGProps<SVGSVGElement>) => (
     <path d="M1602.9 1196.7c0-13.1 8.7-21.9 21.8-21.9h410c56.7 0 104.7 48.1 104.7 105V1516c0 56.9-48 105-104.7 105h-410c-13.1 0-21.8-8.8-21.8-21.9v-402.4z" />
   </svg>
 );
-
 export default Reserve;

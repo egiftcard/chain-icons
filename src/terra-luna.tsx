@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const TerraLuna = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" {...props}>
     <circle cx={1000} cy={1000} r={1000} fill="#172852" />
@@ -14,5 +13,4 @@ const TerraLuna = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default TerraLuna;

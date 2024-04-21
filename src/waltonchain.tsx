@@ -1,6 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-
 const Waltonchain = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 86" {...props}>
     <path fill="#8400fd" d="m34 57.1-30 9-1-57 30-7z" />
@@ -30,5 +29,4 @@ const Waltonchain = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Waltonchain;
